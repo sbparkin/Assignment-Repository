@@ -8,3 +8,13 @@ C:\Users\sbpar\source\repos\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.csp
 C:\Users\sbpar\source\repos\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.csproj.CoreCompileInputs.cache
 C:\Users\sbpar\source\repos\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.exe
 C:\Users\sbpar\source\repos\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.pdb
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\bin\Debug\ComponentPt1.exe.config
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\bin\Debug\ComponentPt1.exe
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\bin\Debug\ComponentPt1.pdb
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.csproj.AssemblyReference.cache
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.Form1.resources
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.Properties.Resources.resources
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.csproj.GenerateResource.cache
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.csproj.CoreCompileInputs.cache
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.exe
+C:\Users\sbpar\Source\Repos\Assignment-Repository\ComponentPt1\ComponentPt1\obj\Debug\ComponentPt1.pdb
