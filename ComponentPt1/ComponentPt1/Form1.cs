@@ -17,33 +17,33 @@ namespace ComponentPt1
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
+            Bitmap pictureBox = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+            pictureBox1.Image = pictureBox;
 
-            if (pictureBox1.Image != null)
-            {
-                Bitmap pictureBox = new Bitmap(pictureBox1.Height, pictureBox1.Width);
-            }
+            var graphics = Graphics.FromImage(pictureBox);
 
-            Graphics graphics = Graphics.FromImage(pictureBox);
-
-
-            String userInput = singleLine.Text;
+            String userInput = textBox1.Text;
             String[] command = userInput.Split(' ');
 
             graphics.Clear(Color.White);
 
-
+            if (string.IsNullOrWhiteSpace(userInput))
+            {
+                throw new ArgumentException("Error, No Input");
+            }
+            
             if (command.Length > 1)
             {
                 if ("circle".Equals(command[0]))
@@ -60,22 +60,30 @@ namespace ComponentPt1
                 {
                     graphics.FillRectangle(Brushes.RoyalBlue, 10, 10, float.Parse(command[1]), float.Parse(command[2]));
                 }
-
-                else if ("moveTo".Equals(command[0]))
-                {
-                    throw new NotImplementedException();
-                }
-
-                else
-                {
-                    MessageBox.Show("Error Invlaid Shape");
-                }
             }
 
             else
             {
-                MessageBox.Show("Error, Invalid Shape");
+                throw new ArgumentException("Error, Missing Size data");
             }
-        }   
+
+
+            pictureBox1.Refresh();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
