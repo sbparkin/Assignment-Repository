@@ -71,6 +71,14 @@ namespace ComponentPt1
             }
         }
 
+        /// <summary>
+        /// Creates an instance of a bitmap and sets is to the picture box, it then
+        /// takes the userinput from either the single line and muti line text boxes
+        /// and parses them through switch case, that work out what the user inputted
+        /// and outputs the relevent drawing.
+        /// </summary>
+        /// <param name="userInput"></param>
+        /// <exception cref="ArgumentException"></exception>
         public void ShapeDrawing(string userInput)
         {
             Bitmap pictureBox = new Bitmap(pictureBox1.Width, pictureBox1.Height);
@@ -142,11 +150,17 @@ namespace ComponentPt1
 
         }
 
+        /// <summary>
+        /// Saves the commands to a txt file
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button3_Click(object sender, EventArgs e)
         {
             string textFile = "../Saved.txt";
             foreach (string line in richTextBox1.Lines)
             {
+                MessageBox.Show(line);
                 using ( StreamWriter writer = new StreamWriter(textFile) ) 
                 {
                     writer.WriteLine(line);
