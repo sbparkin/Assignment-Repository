@@ -1,0 +1,17 @@
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\CommandTester.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\CommandTester.pdb
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\ComponentPt1.exe
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\ComponentPt1.pdb
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\obj\Debug\CommandTester.csproj.AssemblyReference.cache
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\obj\Debug\CommandTester.csproj.CoreCompileInputs.cache
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\obj\Debug\CommandTester.csproj.CopyComplete
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\obj\Debug\CommandTester.dll
+C:\Users\sbpar\source\repos\Assignment-Repository\ComponentPt1\CommandTester\obj\Debug\CommandTester.pdb
