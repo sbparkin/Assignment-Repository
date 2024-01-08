@@ -84,6 +84,8 @@ namespace CommandTester
 
             Form1 parser = new Form1();
             parser.ShapeDrawing(userInput);
+
+            
         }
 
         /// <summary>

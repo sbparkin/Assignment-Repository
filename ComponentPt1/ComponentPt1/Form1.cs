@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.IO;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -11,7 +12,6 @@ namespace ComponentPt1
         public Form1()
         {
             InitializeComponent();
-
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
@@ -100,6 +100,7 @@ namespace ComponentPt1
 
                 case "circle":
                 case "square":
+                case "triangle":
 
                     if (command.Length < 2)
                     {
@@ -107,13 +108,25 @@ namespace ComponentPt1
                     }
                     float size = float.Parse(command[1]);
 
-                    if (command[0] == "circle")
+                    switch (shapeType)
                     {
-                        graphics.FillEllipse(Brushes.BurlyWood, 10, 10, size, size);
-                    }
-                    else
-                    {
-                        graphics.FillRectangle(Brushes.Turquoise, 10, 10, size, size);
+                        case "circle":
+                            graphics.FillEllipse(Brushes.BurlyWood, 10, 10, size, size);
+                            break;
+
+                        case "square":
+                            graphics.FillRectangle(Brushes.Turquoise, 10, 10, size, size);
+                            break;
+
+                        case "triangle":
+                            Point[] trianglePoints = new Point[]
+                            {
+                                new Point(10+10),
+                                new Point(10+ (int)(size/2), 10 + (int)size),
+                                new Point(10 + (int)size, 10)
+                            };
+                            graphics.FillPolygon(Brushes.Chartreuse, trianglePoints);
+                            break;
                     }
                     break;
 
